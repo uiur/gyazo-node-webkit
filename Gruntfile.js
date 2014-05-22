@@ -2,7 +2,7 @@ module.exports = function (grunt) {
   grunt.initConfig({
     nodewebkit: {
       options: {
-        build_dir: '../gyazo-node-webkit-builds',
+        build_dir: './builds',
         mac: true,
         win: false,
         linux32: false,
@@ -13,4 +13,6 @@ module.exports = function (grunt) {
   })
 
   grunt.loadNpmTasks('grunt-node-webkit-builder');
+
+  grunt.registerTask('build', ['nodewebkit'])
 }
