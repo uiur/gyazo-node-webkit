@@ -10,7 +10,7 @@
     "height": 0
   },
   "dependencies": {
-    "gyazo-cli": "^0.0.3"
+    "gyazo-cli": "git://github.com/uiureo/gyazo-cli.git"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
